@@ -68,7 +68,31 @@ body {
   background-color: pink;
   top: 5rem;
   left: 5rem;
+  animation: c1 2s infinite;
 }
+
+@keyframes c1 {
+  0% {
+    top: 5rem;
+    left: 5rem;
+  }
+
+  25% {
+    top: 20rem;
+    left: 5rem;
+  }
+
+  50% {
+    top: 9rem;
+    left: 7rem;
+  }
+
+  100% {
+    top: 25rem;
+    left: 70rem;
+  }
+}
+
 .c2 {
   background-color: blue;
   right: calc(50% - 16.25rem);
